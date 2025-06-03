@@ -1,4 +1,3 @@
-hi everyone.
-we are learning english.
-using Python.
-i like ritika.
+hii there
+abhay
+singh
