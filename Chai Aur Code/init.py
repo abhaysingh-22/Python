@@ -24,10 +24,22 @@
 
 #question3
 
-numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10]
-positive_number_count = 0
-for number in numbers:
-    if number > 0:
-        positive_number_count += 1
+# numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10]
+# positive_number_count = 0
+# for number in numbers:
+    # if number > 0:
+        # positive_number_count += 1
 
-print("The count of positive numbers is:", positive_number_count)
+# print("The count of positive numbers is:", positive_number_count)
+
+
+
+
+#question4
+input_string = input("Enter a string: ")
+reversed_string = ""
+
+for char in input_string:
+    reversed_string = char + reversed_string
+    
+print("Reversed string:", reversed_string)
