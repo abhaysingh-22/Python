@@ -15,8 +15,19 @@
     
     
 #question2
-age = int(input("Enter your age: "))
-day = "Wednesday"
+# age = int(input("Enter your age: "))
+# day = "Wednesday"
 
-price = 12 if age >= 18 else 8
-print("the price of the movie ticket is: ", price)
+# price = 12 if age >= 18 else 8
+# print("the price of the movie ticket is: ", price)  
+
+
+#question3
+
+numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10]
+positive_number_count = 0
+for number in numbers:
+    if number > 0:
+        positive_number_count += 1
+
+print("The count of positive numbers is:", positive_number_count)
