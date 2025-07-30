@@ -40,14 +40,3 @@ print(my_electric_car.fuel_type())
 
 print(isinstance(my_electric_car, ElectricCar))  # Check if my_electric_car is an instance of ElectricCar
 print(isinstance(my_electric_car, Car))  # Check if my_electric_car is also an instance of Car
-
-my_car = Car("Toyota", "Corolla")
-print(my_car.fuel_type())
-
-your_car = Car("Honda", "Civic")
-print(your_car.fuel_type()) 
-
-print(Car.total_car)
-
-print(my_car.general_description()) # object cannot call static method directly, but we can call it using class name.
-print(Car.general_description())
